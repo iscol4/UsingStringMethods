@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="33" green="33" red="ff" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="lblHeader" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblInstLength" max="32767" attributes="0"/>
+                      <Component id="lblInstToUpper" alignment="0" max="32767" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="txtLength" min="-2" pref="285" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="btnLength" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="lblLengthValue" min="-2" pref="194" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="txtToUpper" min="-2" pref="286" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="btnToUpper" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="lblToUpperValue" min="-2" pref="291" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="lblInstCharAt" alignment="0" min="-2" pref="473" max="-2" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="txtCharAt" min="-2" pref="284" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="btnCharAt" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="lblCharAtValue" min="-2" pref="294" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="lblInstIdentical" alignment="0" min="-2" pref="441" max="-2" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="txtIdentical1" min="-2" pref="140" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="txtIdentical2" min="-2" pref="140" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="btnIdentical" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="lblIdenticalValue" min="-2" pref="142" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="txtIndexOf1" min="-2" pref="235" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="txtIndexOf2" min="-2" pref="30" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="btnIndexOf" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="lblIndexOfValue" min="-2" pref="244" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="txtCharAtMultiple" min="-2" pref="286" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="btnCharAtMultiple" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="lblCharAtMultipleValue" max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="txtReplace" min="-2" pref="285" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="btnReplace" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="lblReplaceValue" max="32767" attributes="0"/>
+                      </Group>
+                      <Component id="lblInstIndexOf" alignment="0" min="-2" pref="515" max="-2" attributes="0"/>
+                      <Component id="lblInstCharAtMultiple" alignment="0" min="-2" pref="589" max="-2" attributes="0"/>
+                      <Component id="lblInstReplace" alignment="0" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="163" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="lblHeader" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="lblInstLength" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="txtLength" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="btnLength" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblLengthValue" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="lblInstToUpper" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="txtToUpper" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="btnToUpper" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblToUpperValue" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="lblInstCharAt" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="txtCharAt" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="btnCharAt" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblCharAtValue" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="lblInstIdentical" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="txtIdentical1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtIdentical2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="btnIdentical" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblIdenticalValue" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="lblInstIndexOf" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="txtIndexOf1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtIndexOf2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="btnIndexOf" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblIndexOfValue" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="lblInstCharAtMultiple" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="txtCharAtMultiple" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="btnCharAtMultiple" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblCharAtMultipleValue" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="lblInstReplace" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="txtReplace" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="btnReplace" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblReplaceValue" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="18" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="lblHeader">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Super String Software"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblInstLength">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Enter a string. The program will output the number of characters in that string."/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtLength">
+        </Component>
+        <Component class="javax.swing.JButton" name="btnLength">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Length"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnLengthActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblLengthValue">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblInstToUpper">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Enter a string using lowercase letters. The program will output the string in all capital letters."/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtToUpper">
+        </Component>
+        <Component class="javax.swing.JButton" name="btnToUpper">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="All Caps"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnToUpperActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblToUpperValue">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblInstCharAt">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Enter a string. The prorgam will outptut the character at the fourth spot."/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtCharAt">
+        </Component>
+        <Component class="javax.swing.JButton" name="btnCharAt">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="4th Spot"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnCharAtActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblCharAtValue">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblInstIdentical">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Enter two strings. The program will output whether or not they are identical."/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtIdentical1">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtIdentical2">
+        </Component>
+        <Component class="javax.swing.JButton" name="btnIdentical">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Identical?"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnIdenticalActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblIdenticalValue">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblInstIndexOf">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Enter a string and a letter. The program will output wether or not the letter is found in the string."/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtIndexOf1">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtIndexOf2">
+        </Component>
+        <Component class="javax.swing.JButton" name="btnIndexOf">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Letter Found?"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnIndexOfActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblIndexOfValue">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblInstCharAtMultiple">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Enter a string that is at least 8 characters long. The program will output characters four to six."/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtCharAtMultiple">
+        </Component>
+        <Component class="javax.swing.JButton" name="btnCharAtMultiple">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Characters 4 to 6"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnCharAtMultipleActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblCharAtMultipleValue">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblInstReplace">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Enter a string that contains at least one letter &quot;a&quot;.The program will replace all occurances of &quot;a&quot; with &quot;x&quot;."/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtReplace">
+        </Component>
+        <Component class="javax.swing.JButton" name="btnReplace">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Replace"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnReplaceActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblReplaceValue">
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
